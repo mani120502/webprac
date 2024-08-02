@@ -1,0 +1,241 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+   font-family: sans-serif;
+}
+.banner{
+    background-image: url(Maintain-a-Luxurious-Villa.jpg);
+
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    padding: 25px;
+    
+}
+nav{
+    display: inline;
+    position: relative;
+  
+}
+ul{
+    display:inline;
+    margin-left: 570px;
+    
+}
+li,a{
+    color: #f3f4f8;
+    display: inline;
+    text-transform: uppercase;
+    padding: 12px;
+    text-decoration: none;
+    text-shadow: 1px 2px black;
+    
+}
+.trynow{
+    
+    padding: 18px;
+    border-radius: 28px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+.bancont{
+    color: white;
+    padding: 25px;
+
+}
+
+
+.int{
+    
+    width: 18%;
+    padding: 20px;
+    margin:15px;
+    text-decoration: none;
+    border-radius: 18px;
+   
+}
+.forms{
+  
+    border-radius: 45px;
+    
+    background-image: url(images.jpg);
+    height: 75px;
+    width: 550px;
+    padding-top:28px;
+    margin: 2px;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+ text-align: center;
+
+ margin-left: 500px;
+ border: 2px solid;
+ border-style: none;
+ box-shadow: 2px 2px silver;
+ justify-content: space-between;
+ 
+}
+tr{
+    align-items: center;
+    text-align: center;
+    
+
+}
+.content{
+    margin-top: 140px;
+   
+}
+
+.container{
+    padding: 2rem;
+
+}
+
+.slwr{
+ position: relative;
+ max-width: 65rem;
+ margin: 0 auto;
+}
+.slider{
+ display: flex;
+aspect-ratio: 16/9;
+ overflow-x: auto;
+ scroll-snap-type: x mandatory;
+ scroll-behavior: smooth;
+ box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+ border-radius: 0.8rem;
+ overflow: hidden;
+}
+.slider > div{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+object-fit: cover;
+
+
+}
+.slider img{
+    margin-left: 24px;
+    border-radius: 10px;
+}
+.slider p{
+    font-size: 20px;
+    padding-left: 30px;
+    color: navy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+
+.slidnav{
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+ 
+}
+.slidnav a {
+width: 0.1rem;
+height: 0.1rem;
+border-radius: 70%;
+background-color: navy;
+opacity: 0.75;
+transition: opacity ease 250ms;
+overflow: hidden;
+
+}
+.slidnav a:hover{
+    opacity: 1;
+}
+.butbook{
+
+    position: relative;
+    padding: 8px 8px;
+    text-align: center;
+  
+    font-weight: bold;
+    border: 2px solid #e31033;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+  margin-left: 25px;
+    margin-top: 5px;
+
+    
+
+}
+
+.butbook:hover{
+   color: red;
+   background-color: lightgray;
+}
+.bodstar{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+   
+}
+#img4{
+    float: left;
+    box-shadow: 5px 5px 1px silver;
+}
+.imgbrie{
+    margin: 25px;
+
+}
+.workin{
+ 
+    margin-top: 50px;
+   display: flex;
+  
+   justify-content: space-around;
+
+}
+.imgwo{
+ 
+   align-items: center;
+   text-align: center;
+  
+   padding: 25px;
+   border-style: solid;
+   border-width: 0.5rem;
+   border-color: white;
+   border-radius: 50px;
+   height: 250px;
+ 
+   box-shadow: 8px 8px 2px black;
+    margin: 25px;
+   
+   
+}
+.contgrid{
+    display: grid;
+    
+    grid-template-areas: 'header header header header header'
+    'left left left right right';
+    gap: 5px;
+    padding: 10px;
+}
+.contgrid > div{
+    font-size: 20px;
+
+}
+.header{
+    grid-area: header;
+    text-align: center;
+}
+.left{
+    grid-area: left;
+    padding: 25px;
+}
+.right{
+    grid-area: right;
+}
